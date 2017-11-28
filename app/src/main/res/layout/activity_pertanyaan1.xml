@@ -4,7 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    tools:context="com.example.android.iak_beginner.MainActivity">
+    tools:context="com.example.android.iak_beginner.Pertanyaan1Activity">
 
     <TextView
         android:layout_width="match_parent"
@@ -29,16 +29,19 @@
         android:textSize="24sp" />
 
     <RadioGroup
+        android:id="@+id/rg_jawaban"
         android:layout_width="match_parent"
         android:layout_height="wrap_content">
 
         <RadioButton
+            android:id="@+id/rb_eat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="eat"
             android:textSize="18sp" />
 
         <RadioButton
+            android:id="@+id/rb_haveEaten"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -46,6 +49,7 @@
             android:textSize="18sp" />
 
         <RadioButton
+            android:id="@+id/rb_ate"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -54,6 +58,7 @@
 
 
         <RadioButton
+            android:id="@+id/rb_eated"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -61,6 +66,7 @@
             android:textSize="18sp" />
 
         <RadioButton
+            android:id="@+id/rb_will_eat"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dp"
@@ -76,16 +82,20 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/b_check1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="48dp"
-            android:text="Check" />
+            android:text="Check"
+            android:onClick="check1"/>
 
         <Button
+            android:id="@+id/b_next1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:enabled="false"
-            android:text="Next" />
+            android:text="Next"
+            android:onClick="next1"/>
     </LinearLayout>
 
 </LinearLayout>

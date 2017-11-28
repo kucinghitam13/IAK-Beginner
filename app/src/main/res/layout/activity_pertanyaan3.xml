@@ -34,53 +34,73 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
             <CheckBox
+                android:id="@+id/cb_run"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Run"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_eat"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Eat"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_sleep"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Sleep"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_bed"
+                android:layout_marginBottom="4dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:text="Bed"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_walk"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Walk"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_write"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Write"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_food"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Food"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_read"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Read"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_book"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Book"
                 android:textSize="18sp"/>
             <CheckBox
+                android:id="@+id/cb_drive"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_marginBottom="4dp"
                 android:text="Drive"
                 android:textSize="18sp"/>
         </LinearLayout>
@@ -94,16 +114,20 @@
         android:orientation="horizontal">
 
         <Button
+            android:id="@+id/b_check3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginRight="48dp"
-            android:text="Check" />
+            android:text="Check"
+            android:onClick="check3"/>
 
         <Button
+            android:id="@+id/b_next3"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:enabled="false"
-            android:text="Next" />
+            android:text="Next"
+            android:onClick="next3"/>
     </LinearLayout>
 
 </LinearLayout>

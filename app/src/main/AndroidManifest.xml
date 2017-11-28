@@ -9,15 +9,27 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MainActivity">
+        <activity android:name=".MenuActivity"
+            android:label="English Quiz">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".Pertanyaan2Activity" />
-        <activity android:name=".Pertanyaan3Activity"></activity>
+        <activity
+            android:name=".Pertanyaan1Activity"
+            android:label="Pertanyaan 1">
+        </activity>
+        <activity
+            android:name=".Pertanyaan2Activity"
+            android:label="Pertanyaan 2" />
+        <activity
+            android:name=".Pertanyaan3Activity"
+            android:label="Pertanyaan 3" />
+        <activity
+            android:name=".HasilActivity"
+            android:label="Hasil" />
     </application>
 
 </manifest>

@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">IAK-Beginner</string>
+    <string name="about"><u>About</u></string>
 </resources>
